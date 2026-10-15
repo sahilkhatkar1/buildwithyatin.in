@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Build with Yatin</title>
+  <meta name="description" content="Build with Yatin — a technology startup building software products, cloud solutions and AI-powered tools.">
+  <link rel="canonical" href="https://buildwithyatin.in/">
+  <meta property="og:title" content="Build with Yatin">
+  <meta property="og:description" content="Software products, cloud solutions and AI-powered tools.">
+  <meta property="og:url" content="https://buildwithyatin.in/">
+  <meta property="og:type" content="website">
+  <style>
+    :root {
+      --bg: #ffffff; --surface: #f5f7fa; --text: #0f172a; --muted: #475569;
+      --accent: #ff9900; --accent-text: #111827; --border: #e2e8f0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0b1120; --surface: #111a2e; --text: #e2e8f0; --muted: #94a3b8; --border: #1e293b; }
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0; background: var(--bg); color: var(--text); line-height: 1.6;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+    header { position: sticky; top: 0; z-index: 10; background: var(--bg); border-bottom: 1px solid var(--border); }
+    nav { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+    .logo { font-weight: 800; font-size: 1.2rem; text-decoration: none; color: var(--text); }
+    .logo span { color: var(--accent); }
+    nav ul { list-style: none; display: flex; gap: 20px; margin: 0; padding: 0; }
+    nav a { color: var(--muted); text-decoration: none; font-size: .95rem; }
+    nav a:hover { color: var(--text); }
+    .hero { padding: 96px 16px 72px; }
+    .hero h1 { font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.15; margin: 0 0 16px; }
+    .hero p { font-size: 1.15rem; color: var(--muted); max-width: 640px; margin: 0 0 32px; }
+    .btn { display: inline-block; padding: 12px 24px; border-radius: 8px; background: var(--accent); color: var(--accent-text); font-weight: 600; text-decoration: none; }
+    section { padding: 64px 0; }
+    section.alt { background: var(--surface); }
+    h2 { font-size: 1.8rem; margin: 0 0 12px; }
+    .lead { color: var(--muted); max-width: 680px; margin: 0 0 32px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+    .card { background: var(--bg); border: 1px solid var(--border); border-radius: 12px; padding: 24px; }
+    .card h3 { margin: 0 0 8px; font-size: 1.1rem; }
+    .card p { margin: 0; color: var(--muted); }
+    .contact-list { list-style: none; padding: 0; margin: 0; }
+    .contact-list li { margin-bottom: 8px; }
+    .contact-list a { color: var(--accent); }
+    footer { border-top: 1px solid var(--border); padding: 24px 0; color: var(--muted); font-size: .9rem; }
+    @media (max-width: 600px) {
+      nav ul { gap: 12px; }
+      .hero { padding: 64px 16px 48px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav>
+        <a class="logo" href="/">Build<span>with</span>Yatin</a>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap hero">
+      <h1>We build software that helps businesses grow.</h1>
+      <p>Build with Yatin is a technology startup making web and mobile products, cloud-native platforms and AI-powered tools for startups and small businesses.</p>
+      <a class="btn" href="#contact">Get in touch</a>
+    </div>
+
+    <section id="about" class="alt">
+      <div class="wrap">
+        <h2>About us</h2>
+        <p class="lead">We are a product engineering startup based in India. We design, build and run reliable software on the cloud, taking ideas from prototype to production quickly.</p>
+        <div class="grid">
+          <div class="card"><h3>Our mission</h3><p>Make modern technology simple and affordable for early-stage founders and growing businesses.</p></div>
+          <div class="card"><h3>How we work</h3><p>Short iterations, clear communication and cloud-first architecture built to scale.</p></div>
+          <div class="card"><h3>Built on the cloud</h3><p>Our products run on AWS, so they are secure, scalable and cost-efficient.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrap">
+        <h2>What we build</h2>
+        <p class="lead">Our services and products.</p>
+        <div class="grid">
+          <div class="card"><h3>Web &amp; mobile apps</h3><p>Fast, responsive applications built with modern frameworks.</p></div>
+          <div class="card"><h3>Cloud &amp; DevOps</h3><p>AWS architecture, CI/CD pipelines, serverless and container deployments.</p></div>
+          <div class="card"><h3>AI solutions</h3><p>Chatbots, automation and AI features built into your products.</p></div>
+          <div class="card"><h3>MVP development</h3><p>From idea to a working product your users can try, in weeks.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="alt">
+      <div class="wrap">
+        <h2>Contact</h2>
+        <p class="lead">Have a project in mind? We'd love to hear from you.</p>
+        <ul class="contact-list">
+          <li><strong>Email:</strong> <a href="mailto:hello@buildwithyatin.in">hello@buildwithyatin.in</a></li>
+          <li><strong>Website:</strong> <a href="https://buildwithyatin.in">buildwithyatin.in</a></li>
+          <li><strong>Location:</strong> India</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">&copy; <span id="year">2026</span> Build with Yatin. All rights reserved.</div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
